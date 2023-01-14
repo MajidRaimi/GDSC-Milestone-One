@@ -12,12 +12,14 @@ body {
   text-align: center;
   font-family: "merriwheater", serif;
 }
+
 h1 {
   color: #50ab93;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
 }
+
 h2 {
   color: #50ab93;
   font-size: 1.5rem;
@@ -26,10 +28,12 @@ h2 {
   padding-top: 10px;
   padding-bottom: 80px;
 }
+
 .land {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
 h3 {
   color: #11999e;
   font-family: "montserrat", sans-serif;
@@ -44,6 +48,7 @@ header {
   align-items: center;
   padding: 10px 200px;
 }
+
 .navigation a {
   color: #50ab93;
   text-decoration: none;
@@ -55,17 +60,20 @@ header {
 .navigation a:hover {
   color: #2c7e69;
 }
+
 .avatar {
   vertical-align: middle;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
+
 .first_container {
   background-color: #e1ece8;
   position: relative;
   padding-top: 200px;
 }
+
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -73,6 +81,7 @@ header {
   width: 50px;
   height: 50px;
 }
+
 .bottom-cloud {
   position: absolute;
   left: 300px;
@@ -86,6 +95,7 @@ header {
   width: 100px;
   height: 100px;
 }
+
 .h2-about {
   padding-bottom: 10px;
   font-size: 30px;
@@ -94,34 +104,41 @@ header {
 .brief {
   font-size: 1.5em;
 }
+
 .about_container p {
   color: #7a7e7c;
   margin-bottom: 70px;
 }
+
 .about_container p a {
   color: #50ab93;
   text-decoration: none;
 }
+
 .about_container p a:hover {
   color: #2c7e69;
 }
+
 .swift {
   width: 25%;
   float: right;
   margin-left: 30px;
   margin-bottom: 5%;
 }
+
 .web {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
+
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
+
 .i-do {
   background-color: #e1ece8;
   margin-right: 10%;
@@ -132,6 +149,7 @@ header {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
 .i-do span {
   color: #2c7e69;
   font-size: 30px;
@@ -139,9 +157,11 @@ header {
   vertical-align: middle;
   line-height: normal;
 }
+
 .color {
   color: #2c7e69;
 }
+
 .idea {
   background-color: #e1ece8;
   margin-right: 20%;
@@ -154,6 +174,7 @@ header {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
 .idea span {
   color: #2c7e69;
   font-size: 30px;
@@ -161,6 +182,7 @@ header {
   vertical-align: middle;
   line-height: normal;
 }
+
 .btn {
   background-color: #45b39a;
   color: #2b977f;
@@ -170,15 +192,18 @@ header {
   border-color: #45b39a;
   margin-bottom: 5%;
 }
+
 .btn:hover {
   background-color: #2c7e69;
   transform: scale(1.1);
 }
+
 footer {
   background-color: #e1ece8;
   padding: 5%;
   color: #2c7e69;
 }
+
 footer div {
   font-size: 1.3em;
 
@@ -187,9 +212,11 @@ footer div {
   align-items: center;
   padding-bottom: 35px;
 }
+
 .social {
   color: #2c7e69;
 }
+
 @media (max-width: 1200px) {
   #features .desc {
     width: 100%;
@@ -199,7 +226,7 @@ footer div {
   }
 }
 
-.skill-row p{
+.skill-row p {
   font-size: 1.3em;
 
 }
