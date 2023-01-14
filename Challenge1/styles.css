@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     width: 1400px;
     height: 3600px;
     background-color: #080D34;
@@ -16,15 +16,15 @@ body{
 
 #wrapper {
     position: relative;
-    margin-left:auto;
-    margin-right:auto;
-    width:1080px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
 }
 
 
 /*Devision************************************************************************************/
 
-.Navigation{
+.Navigation {
     width: 100%;
     height: 88px;
     left: 0px;
@@ -35,21 +35,21 @@ body{
     backdrop-filter: blur(10px)
 }
 
-.Home{
+.Home {
     position: absolute;
     height: 100vh;
     width: 100%;
     top: 80px;
 }
 
-.About{
+.About {
     position: absolute;
     width: 100%;
     height: 100vh;
     top: 900px;
 }
 
-.Services{
+.Services {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -57,7 +57,7 @@ body{
 }
 
 
-.Contact{
+.Contact {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -67,35 +67,35 @@ body{
 
 /*InerDevision************************************************************************************/
 
-.home_content{
+.home_content {
     position: relative;
-    left:82px;
+    left: 82px;
     width: 789px;
     height: 557px;
     top: 69.01px;
- }
+}
 
- .about_content{
+.about_content {
     position: relative;
-    left:82px;
+    left: 82px;
     width: 789px;
-    height:632px;
+    height: 632px;
     top: 69.01px;
- }
- 
+}
 
- .services_content{
+
+.services_content {
     position: relative;
-    left:82px;
+    left: 82px;
     width: 789px;
     height: 557px;
     top: 69.01px;
 }
 
 
-.contact_content{
+.contact_content {
     position: relative;
-    left:82px;
+    left: 82px;
     width: 789px;
     height: 557px;
     top: 69.01px;
@@ -104,7 +104,7 @@ body{
 
 /*Navigation************************************************************************************/
 
-nav .logo{
+nav .logo {
     color: white;
     text-transform: uppercase;
     font-weight: 700;
@@ -112,30 +112,30 @@ nav .logo{
     text-decoration: none;
 }
 
-.nav-items li{
+.nav-items li {
     list-style: none;
     margin-right: 25px;
 }
 
-.nav-items li a{
+.nav-items li a {
     color: white;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
 }
 
-.nav-items li a:hover{
+.nav-items li a:hover {
     color: #FE259B;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -144,7 +144,7 @@ nav ul{
 
 /*Home************************************************************************************/
 
-.home_content h2{
+.home_content h2 {
     position: absolute;
     width: 440px;
     height: 72px;
@@ -161,7 +161,7 @@ nav ul{
     text-align: left;
 }
 
-.home_content h1{
+.home_content h1 {
     position: absolute;
     width: 663px;
     height: 164px;
@@ -175,7 +175,7 @@ nav ul{
     color: #FFFFFF;
 }
 
-.home_content h3{
+.home_content h3 {
     position: absolute;
     width: 414px;
     height: 39px;
@@ -195,19 +195,19 @@ nav ul{
     top: 0px;
 }
 
-.bar1{
+.bar1 {
     position: absolute;
-    top:300px;
+    top: 300px;
     left: 1009px;
 }
 
-.social-icons{
+.social-icons {
     position: absolute;
-    top:400px;
+    top: 400px;
     left: 8px;
 }
 
-.social-icons a{
+.social-icons a {
     color: #FFFFFF;
     font-size: 1.7em;
     padding-right: 50px;
@@ -215,7 +215,7 @@ nav ul{
 
 /*About************************************************************************************/
 
-.about_content h3{
+.about_content h3 {
     position: absolute;
     width: 127px;
     height: 30px;
@@ -228,12 +228,12 @@ nav ul{
     color: #FFFFFF;
 }
 
-.about_content h2{
+.about_content h2 {
     position: absolute;
     width: 322px;
     height: 102px;
     left: 0px;
-    top:100px;
+    top: 100px;
     font-style: normal;
     font-weight: 400;
     font-size: 67.77px;
@@ -241,7 +241,7 @@ nav ul{
     color: #FE259B;
 }
 
-.about_content p{
+.about_content p {
     position: absolute;
     width: 784px;
     height: 303px;
@@ -252,34 +252,34 @@ nav ul{
     font-size: 24px;
     line-height: 48px;
     text-align: justify;
-    display: inline; 
-    color: #FFFFFF;    
+    display: inline;
+    color: #FFFFFF;
 }
 
 
-.bar2{
+.bar2 {
     position: absolute;
-    top:300px;
+    top: 300px;
     left: 1009px;
 }
 
 
-.contant2{
+.contant2 {
     position: absolute;
     width: 750px;
     height: 150px;
-    left:8px;
+    left: 8px;
     top: 436px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 
-.card{
+.card {
     text-align: left;
-    width:200px;
+    width: 200px;
     box-shadow: 0 5px 25px rgba(1, 1, 1, 70%);
     border-radius: 10px;
     padding: 25px;
@@ -287,8 +287,8 @@ nav ul{
     transition: 0.7s ease;
 }
 
-.nameskill{
-    width: 260px; 
+.nameskill {
+    width: 260px;
     height: 30px;
     font-family: 'Sora';
     font-style: normal;
@@ -298,14 +298,14 @@ nav ul{
     color: #FFFFFF;
 }
 
-.card2:hover{
+.card2:hover {
     transform: scale(1.1);
 }
 
 /*Services************************************************************************************/
 
 
-.services_content h3{
+.services_content h3 {
     position: absolute;
     width: 334px;
     height: 39px;
@@ -318,12 +318,12 @@ nav ul{
     color: #ffffff;
 }
 
-.services_content h2{
+.services_content h2 {
     position: absolute;
     width: 781px;
     height: 120px;
     left: 0px;
-    top:100px;
+    top: 100px;
     font-style: normal;
     font-weight: 400;
     font-size: 67.77px;
@@ -331,25 +331,25 @@ nav ul{
     color: #FE259B;
 }
 
-.bar3{
+.bar3 {
     position: absolute;
-    top:300px;
+    top: 300px;
     left: 990px;
 }
 
-.content1{
+.content1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: absolute;
     width: 780px;
     height: 196px;
-    left:50px;
+    left: 50px;
     top: 270px;
 }
 
-.card1{
-    width:210px;
+.card1 {
+    width: 210px;
     box-shadow: 0 5px 25px rgba(1, 1, 1, 70%);
     border-radius: 10px;
     padding: 25px;
@@ -357,22 +357,22 @@ nav ul{
     transition: 0.7s ease;
 }
 
-.card1:hover{
+.card1:hover {
     transform: scale(1.1);
 }
 
 
-.icon{
+.icon {
     color: white;
     font-size: 8em;
     text-align: center;
 }
 
-.info{
+.info {
     text-align: center;
 }
 
-.info h3{
+.info h3 {
     color: #FFFFFF;
     font-size: 1.2em;
     font-weight: 700;
@@ -382,18 +382,18 @@ nav ul{
 
 /***Contact**********************************************************************************/
 
-.bar4{
+.bar4 {
     position: absolute;
-    top:300px;
+    top: 300px;
     left: 990px;
 }
 
-.contact_content h2{
+.contact_content h2 {
     position: absolute;
     width: 781px;
     height: 120px;
     left: 0px;
-    top:100px;
+    top: 100px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -403,19 +403,19 @@ nav ul{
 }
 
 
-.content2{
+.content2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: absolute;
     width: 780px;
     height: 196px;
-    left:0px;
+    left: 0px;
     top: 270px;
 }
 
-.card2{
-    width:300px;
+.card2 {
+    width: 300px;
     box-shadow: 0 5px 25px rgba(1, 1, 1, 70%);
     border-radius: 10px;
     padding: 25px;
@@ -423,23 +423,11 @@ nav ul{
     transition: 0.7s ease;
 }
 
-.card1:hover{
+.card1:hover {
     transform: scale(1.1);
 }
 
 
-.info p{
+.info p {
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
