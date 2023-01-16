@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(rgb(186, 241, 235), white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    position: absolute;
+    width: 351px;
+    height: 35px;
+    left: 32px;
+    top: 0px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+nav ul{
+    position: absolute;
+    right: 100px;
+    top: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{;
+    color: #202020;
+    text-decoration: none;
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+nav ul li a:hover{
+    color: white;
+    transition: .3s;
+}
+
+.AboutUs{
+    border: 1px solid #000000;
+    padding: 5px 20px;
+    border-radius: 30px;  
+}
+
+.title{
+    position: absolute; 
+    width: 890px;
+    height: 244px;
+    left: 89px;
+    top: 100px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.description{
+    position: absolute;
+    width: 685px;
+    height: 222px;
+    left: 89px;
+    top: 380px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: lowercase; 
+    color: #000000; 
+}
+
+.waste{
+    position: absolute;
+    width: 358px;
+    height: 359px;
+    left: 993px;
+    top: 200px;
+}
