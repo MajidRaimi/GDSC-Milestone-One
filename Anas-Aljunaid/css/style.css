@@ -270,6 +270,9 @@ picture {
   color: #fff;  
 }
 
+.contact-me-button i {
+  margin-right: 0.25rem;
+}
 
 @media(min-width: 768px){
 
