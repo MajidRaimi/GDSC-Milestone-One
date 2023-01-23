@@ -1,0 +1,195 @@
+body{
+    position: relative;
+    left: 200px;
+    background-color: #11071F;
+    color: rgb(121, 106, 106);
+
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    position: relative;
+    left: 80px;
+}
+
+h1{
+    position: relative;
+    left: 80px;
+}
+
+.first_text{
+    position: relative;
+    left: 200px;
+
+} 
+.arrow{
+    position: relative;
+    bottom: 40px;
+    left: 140px;
+}
+.comp{
+    position: relative;
+    bottom: 60px;
+    left: 110px;
+ }
+ .second_text{
+    position: relative;
+    left: 280px;
+    bottom: 200px;
+ }
+ .third_text{
+    position: relative;
+    left: 230px;
+    bottom: 200px;
+ }
+ .space{
+    position: relative;
+    bottom: 30px;
+ }
+ .forth_text{
+    position: relative;
+    left: 340px;
+    bottom: 250px;
+ }
+ .fifth_text{
+    position: relative;
+    left: 110px;
+    bottom: 150px;
+ }
+ .sixth_text{
+    position: relative;
+    bottom: 150px;
+ }
+ .GR{
+    position: relative;
+    left: 150px;
+    bottom: 200px;
+ }
+ .box1{
+    border: 2px ridge inset outset #2C1250;
+    width: 350px;
+    height: 120px;
+    background-color: #281149;
+    position: relative;
+    left: 100px;
+    bottom: 4px;
+    
+
+ }
+ .p911{
+    position: relative;
+    bottom: 700px;
+ }
+ .E1{
+  position: relative;
+  bottom: 785px;
+  left: 150px;
+
+  font-size: large;
+  font-style: italic;
+    
+ }
+
+ .box2{
+    border: 2px ridge inset outset #2C1250;
+    width: 350px;
+    height: 120px;
+    background-color: #281149;
+    position: relative;
+    left: 464px;
+    bottom: 124px;
+    
+
+ }
+ .C{
+    position: relative;
+    left: 10px;
+    top: 25px;
+    width: 80px;
+ }
+ .E2{
+    position: relative;
+    left: 100px;
+    bottom: 45px;
+    font-size: large;
+    font-style: italic;
+ }
+.box3{
+    border: 2px ridge inset outset #2C1250;
+    width: 350px;
+    height: 120px;
+    background-color: #281149;
+    position: relative;
+    left: 282px;
+    bottom: 80px;
+}
+.E3{
+    position: relative;
+    left: 130px;
+    bottom: 80px;
+    font-size: large;
+    font-style: italic;
+}
+
+ .BGbox1{
+    border: 2px ridge #4F228D;
+    width: 350px;
+    height: 120px;
+    background-color: #4F228D;
+    position: relative;
+    left: 98px;
+    top:368px ; }
+ .BGbox2{
+    border: 2px ridge #4F228D;
+    width: 350px;
+    height: 120px;
+    background-color: #4F228D;
+    position: relative;
+    left: 464px;
+    top:244px ; }
+   
+    .BGbox3{
+        border: 2px ridge #4F228D;
+        width: 350px;
+        height: 120px;
+        background-color: #4F228D;
+        position: relative;
+        left: 282px;
+        top:284px ; 
+    }  
+    
+
+.whats{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.git{
+    position: relative;
+    left: 183px;
+    bottom: 10px;
+}
+
+.insta{
+    position: relative;
+    left: 260px;
+    bottom: 49px;
+}
+    
+.EXP{
+    position: relative;
+    bottom: 100px;
+}
+    
+.boxes{
+    position: relative;
+    bottom: 350px;
+}
+
+.contact{
+    position: relative;
+    bottom: 300px;
+}
