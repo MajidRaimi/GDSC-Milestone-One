@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/favicon-package/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/favicon-package/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/favicon-package/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./src/favicon-package/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./src/favicon-package/safari-pinned-tab.svg"
+      color="#3a6bf5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Fontawesome library -->
+    <script
+      src="https://kit.fontawesome.com/aadc4bc837.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./dist/output.css" />
+
+    <!-- Page Title -->
+    <title>Anas Aljunaid | Portfolio</title>
+  </head>
+
+  <body
+    class="bg-primary-bg-light bg-pattern font-body text-primary-text-light dark:bg-primary-bg-dark dark:text-primary-text-dark"
+  >
+    <!-- Start Header -->
+    <header
+      class="border-b-2 border-b-secondary-bg-light py-3 dark:border-b-secondary-bg-dark"
+    >
+      <div
+        class="flex items-center justify-between px-4 py-1 sm:px-6 lg:container"
+      >
+        <!-- Logo -->
+        <div class="flex-1 select-none text-3xl font-bold">
+          A<span class="text-main-color">J</span>
+        </div>
+
+        <!-- Nav Bar -->
+        <div class="hidden font-normal sm:flex">
+          <ul class="flex select-none items-center justify-between">
+            <li class="navbar-item"><a href="#Home">Home</a></li>
+            <li class="navbar-item"><a href="#Education">Education</a></li>
+            <li class="navbar-item"><a href="#Skills">Skills</a></li>
+            <li class="navbar-item"><a href="#Contact-me">Contact me</a></li>
+          </ul>
+        </div>
+
+        <!-- Switch mode -->
+        <div class="ml-4">
+          <i
+            class="moon fa-solid fa-moon cursor-pointer text-2xl transition-colors duration-300 hover:text-main-color"
+          ></i>
+          <i
+            class="sun fa-solid fa-sun cursor-pointer text-2xl transition-colors duration-300 hover:text-main-color"
+          ></i>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Home Page Start -->
+    <section id="Home">
+      <div
+        class="flex-row-reverse items-center justify-between px-4 sm:px-6 md:flex md:h-5/6 md:py-28 lg:container"
+      >
+        <!-- Hero Image -->
+        <div class="flex-1" data-aos="zoom-in" data-aos-duration="1200">
+          <img
+            class="md:max-w-96 mx-auto my-8 w-64 select-none md:my-0 md:ml-auto md:mr-0 md:w-[22rem] lg:w-96"
+            src="./src/images/Anas-Aljunaid.png"
+            alt=""
+          />
+        </div>
+
+        <!-- Hero Text -->
+        <div class="mr-2 flex-1" data-aos="fade-down" data-aos-duration="1200">
+          <!-- Text -->
+          <div
+            class="mx-auto max-w-md text-center md:mx-0 md:max-w-full md:text-left"
+          >
+            <p class="text-base font-light sm:text-xl">Hey I'm</p>
+            <h1 class="my-2 text-3xl font-bold text-main-color sm:text-5xl">
+              &#60;Anas Aljunaid/&#62;
+            </h1>
+            <p class="text-base font-light sm:text-xl">
+              Computer Science Student at Imam Abdulrahman Bin Faisal University
+              | GDSC Development Unit Member
+            </p>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div
+            class="my-3 mx-auto flex max-w-xs justify-between text-2xl md:mx-0 md:w-3/4 md:px-0"
+          >
+            <a
+              class="social-media-icon hover:bg-main-color"
+              href="https://github.com/AnasAljunaid"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              class="social-media-icon hover:bg-main-color"
+              href="https://www.linkedin.com/in/anas-aljunaid/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              class="social-media-icon hover:bg-main-color"
+              href="https://twitter.com/AnasAljunaid"
+              target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              class="social-media-icon hover:bg-main-color"
+              href="https://www.instagram.com/_a8_/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+
+          <!-- Download CV Button -->
+          <div>
+            <a
+              class="mt-4 flex w-full items-center justify-center rounded-2xl bg-main-color py-2 font-light text-white transition-opacity duration-300 hover:opacity-70 md:w-3/4 md:max-w-xs md:text-xl"
+              href="https://drive.google.com/uc?export=download&id=1Pw74_2kx_Q19TNEy7oGh0qYhkX-fuhtm"
+            >
+              <i class="fa-solid fa-download mr-2 text-xl"></i> Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Page End -->
+
+    <!-- Start Education Section -->
+    <section id="Education" class="mt-24">
+      <div class="px-4 sm:px-6 lg:container">
+        <!-- Education Title -->
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <h2
+            class="mx-auto mb-20 w-fit border-b-4 border-b-main-color p-1 px-4 text-center text-[32px] font-bold sm:px-6 sm:text-5xl"
+          >
+            Education
+          </h2>
+        </div>
+
+        <!-- Degrees -->
+        <div class="grid gap-16 sm:grid-cols-2">
+          <!-- First Degree -->
+          <div
+            class="relative rounded-3xl bg-secondary-bg-light px-6 pt-16 pb-8 before:absolute before:-top-[30px] before:left-1/2 before:-ml-[40px] before:h-20 before:w-20 before:rounded-full before:bg-main-color before:p-2 before:text-center before:font-['Font_Awesome_5_Free'] before:text-[42px] before:font-black before:text-white before:content-['\f19d'] dark:bg-secondary-bg-dark"
+            data-aos="fade-down"
+            data-aos-duration="1300"
+          >
+            <h4 class="text-base font-normal md:text-lg">
+              Imam Abdulrhman Bin Faisal University
+            </h4>
+            <p class="font-extralight opacity-90 md:text-lg">
+              Bachelor’s degree, Computer Science, 2025
+            </p>
+            <p class="font-light text-main-color md:text-lg">Undergraduate</p>
+          </div>
+
+          <!-- Second Degree -->
+          <div
+            class="relative rounded-3xl bg-secondary-bg-light px-6 pt-16 pb-8 before:absolute before:-top-[30px] before:left-1/2 before:-ml-[40px] before:h-20 before:w-20 before:rounded-full before:bg-main-color before:p-2 before:text-center before:font-['Font_Awesome_5_Free'] before:text-[42px] before:font-black before:text-white before:content-['\f19d'] dark:bg-secondary-bg-dark"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
+            <h4 class="text-base font-normal md:text-lg">
+              Thumamah Bin Athal Secondary School
+            </h4>
+            <p class="font-extralight opacity-90 md:text-lg">
+              High School Diploma, Science, 2020
+            </p>
+            <p class="font-light text-main-color md:text-lg">
+              Grade: Excellent | 99.12%
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Education Section -->
+
+    <!-- Start Skills Section -->
+    <section id="Skills" class="mt-24 px-4 sm:px-6 lg:container">
+      <!-- Skills Title -->
+      <div data-aos="fade-down" data-aos-duration="1000">
+        <h2
+          class="mx-auto mb-14 w-fit border-b-4 border-b-main-color p-1 px-8 text-center text-4xl font-bold sm:text-5xl"
+        >
+          Skills
+        </h2>
+      </div>
+
+      <!-- Skills -->
+      <div class="mb-8 grid-cols-2 items-center justify-center gap-16 md:grid">
+        <!-- Programming Image   -->
+        <div
+          class="hidden h-full items-center justify-center rounded-l-[100px] bg-main-color md:flex"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <img class="w-4/5" src="./src/images/programming.svg" alt="" />
+        </div>
+
+        <!-- Skills -->
+        <div>
+          <!-- Skill #1 -->
+          <div class="mb-6">
+            <h4 class="font-light">JAVA</h4>
+            <!-- Progress bar -->
+            <div
+              class="h-3 w-full rounded-xl bg-secondary-bg-light dark:bg-secondary-bg-dark"
+            >
+              <div class="w-4/5">
+                <div
+                  class="h-3 rounded-xl bg-main-color"
+                  data-aos="progress-bar-animation"
+                  data-aos-duration="1500"
+                  data-aos-offset="10"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill #2 -->
+          <div class="mb-6">
+            <h4 class="font-light">C++</h4>
+            <!-- Progress bar -->
+            <div
+              class="h-3 w-full rounded-xl bg-secondary-bg-light dark:bg-secondary-bg-dark"
+            >
+              <div class="w-[70%]">
+                <div
+                  class="h-3 rounded-xl bg-main-color"
+                  data-aos="progress-bar-animation"
+                  data-aos-duration="1500"
+                  data-aos-offset="10"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill #3 -->
+          <div class="mb-6">
+            <h4 class="font-light">PYTHON</h4>
+            <!-- Progress bar -->
+            <div
+              class="h-3 w-full rounded-xl bg-secondary-bg-light dark:bg-secondary-bg-dark"
+            >
+              <div class="w-[70%]">
+                <div
+                  class="h-3 rounded-xl bg-main-color"
+                  data-aos="progress-bar-animation"
+                  data-aos-duration="1500"
+                  data-aos-offset="10"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill #4 -->
+          <div class="mb-6">
+            <h4 class="font-light">HTML and CSS</h4>
+            <!-- Progress bar -->
+            <div
+              class="h-3 w-full rounded-xl bg-secondary-bg-light dark:bg-secondary-bg-dark"
+            >
+              <div class="w-4/5">
+                <div
+                  class="h-3 rounded-xl bg-main-color"
+                  data-aos="progress-bar-animation"
+                  data-aos-duration="1500"
+                  data-aos-offset="10"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill #5 -->
+          <div class="mb-6">
+            <h4 class="font-light">FIGMA</h4>
+            <!-- Progress bar -->
+            <div
+              class="h-3 w-full rounded-xl bg-secondary-bg-light dark:bg-secondary-bg-dark"
+            >
+              <div class="w-[70%]">
+                <div
+                  class="h-3 rounded-xl bg-main-color"
+                  data-aos="progress-bar-animation"
+                  data-aos-duration="1500"
+                  data-aos-offset="10"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill #6 -->
+          <div class="mb-6">
+            <h4 class="font-light">PHOTOSHOP and ILLUSTRATOR</h4>
+            <!-- Progress bar -->
+            <div
+              class="h-3 w-full rounded-xl bg-secondary-bg-light dark:bg-secondary-bg-dark"
+            >
+              <div class="w-4/5">
+                <div
+                  class="h-3 rounded-xl bg-main-color"
+                  data-aos="progress-bar-animation"
+                  data-aos-duration="1500"
+                  data-aos-offset="10"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- Start Footer Section -->
+    <footer
+      id="Contact-me"
+      class="border-t border-t-secondary-bg-light p-8 text-center dark:border-t-secondary-bg-dark sm:px-6 lg:container"
+      data-aos="fade-down"
+      data-aos-duration="1200"
+    >
+      <!-- My Information -->
+      <h4 class="text-3xl font-bold">
+        Anas <span class="text-main-color">Aljunaid</span>
+      </h4>
+      <p class="text-base font-light">
+        <i class="uil uil-map-marker"></i> Riyadh &#38; Khobar, Saudi Arabia
+      </p>
+
+      <!-- Contact Me Buttons -->
+      <div
+        class="mx-auto flex w-full flex-col items-center justify-center sm:w-3/4 sm:flex-row"
+      >
+        <a
+          class="mt-4 flex w-full cursor-pointer items-center justify-center rounded-2xl bg-main-color py-2 text-lg font-extralight text-white transition-opacity duration-300 hover:opacity-70 sm:mr-4 md:w-3/4 md:max-w-xs md:text-xl"
+          href="mailto: aljunaidanas@gmail.com"
+          target="_blank"
+        >
+          <i class="fa-solid fa-envelope mr-2"></i> Email
+        </a>
+        <a
+          class="mt-4 flex w-full cursor-pointer items-center justify-center rounded-2xl bg-main-color py-2 text-lg font-extralight text-white transition-opacity duration-300 hover:opacity-70 sm:mr-4 md:w-3/4 md:max-w-xs md:text-xl"
+          href="https://wa.me/966533039772"
+          target="_blank"
+        >
+          <i class="fa-brands fa-whatsapp mr-2"></i> Whatsapp
+        </a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="mt-8">
+        <p class="text-base font-extralight sm:text-lg">
+          Made with <i class="fa-solid fa-heart text-main-color"></i> By Anas
+          Aljunaid
+        </p>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Import Javascript File -->
+    <script src="./src/script.js"></script>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .social-media-icon {
+    @apply flex h-10 w-10 items-center justify-center rounded-full bg-secondary-bg-light text-lg text-primary-text-light transition-colors duration-300 hover:text-white dark:bg-secondary-bg-dark dark:text-primary-text-dark sm:h-12 sm:w-12 sm:text-2xl;
+  }
+
+  .navbar-item {
+    @apply mx-2 cursor-pointer rounded-2xl px-4 py-2 transition-colors duration-300 hover:bg-main-color hover:text-white;
+  }
+
+  .display-none {
+    @apply hidden;
+  }
+}
+
+[data-aos="progress-bar-animation"] {
+  width: 0;
+  transition-property: width;
+}
+[data-aos="progress-bar-animation"].aos-animate {
+  width: 100%;
+}
+
+[data-aos="example-anim1"] {
+  transform: skewX(45deg);
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+[data-aos="example-anim1"].aos-animate {
+  transform: skewX(0);
+  opacity: 1;
+}
