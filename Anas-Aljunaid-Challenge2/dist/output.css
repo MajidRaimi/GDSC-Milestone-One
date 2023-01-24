@@ -573,10 +573,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.display-none {
-  display: none;
-}
-
 .relative {
   position: relative;
 }
@@ -792,7 +788,7 @@ video {
 }
 
 .bg-pattern {
-  background-image: url('/src/images/background-shapes.png');
+  background-image: url('../src/images/background-shapes.png');
 }
 
 .p-1 {

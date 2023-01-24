@@ -48,7 +48,7 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        pattern: "url('/src/images/background-shapes.png')",
+        pattern: "url('../src/images/background-shapes.png')",
       },
     },
   },
