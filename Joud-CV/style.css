@@ -328,29 +328,3 @@ div.profile{
     }
 }
  
-
-/*
-.socials{
-    margin-top: 400px;
-    margin-left: 50px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    width: 100px;
-    height: 100px;
-    text-indent: 10px;
-    position: absolute;
-    background-color:rgb(241, 31, 31);
-
-}
-
-
-.socials  img{
-    width: 20px;
-    background-color:rgb(235, 36, 246);
-
-}
-
-*/
-/*
-    font-family: 'IBM Plex Sans Arabic', sans-serif; */
