@@ -63,9 +63,7 @@
     <header
       class="border-b-2 border-b-secondary-bg-light py-3 dark:border-b-secondary-bg-dark"
     >
-      <div
-        class="flex items-center justify-between px-4 py-1 sm:px-6 lg:container"
-      >
+      <div class="flex items-center justify-between px-8 py-1 lg:container">
         <!-- Logo -->
         <div class="flex-1 select-none text-3xl font-bold">
           A<span class="text-main-color">J</span>
@@ -97,12 +95,12 @@
     <!-- Home Page Start -->
     <section id="Home">
       <div
-        class="flex-row-reverse items-center justify-between px-4 sm:px-6 md:flex md:h-5/6 md:py-28 lg:container"
+        class="flex-row-reverse items-center justify-between px-8 md:flex md:h-5/6 md:py-28 lg:container"
       >
         <!-- Hero Image -->
         <div class="flex-1" data-aos="zoom-in" data-aos-duration="1200">
           <img
-            class="md:max-w-96 mx-auto my-8 w-64 select-none md:my-0 md:ml-auto md:mr-0 md:w-[22rem] lg:w-96"
+            class="md:max-w-96 mx-auto my-8 w-72 select-none md:my-0 md:ml-auto md:mr-0 md:w-[22rem] lg:w-96"
             src="./src/images/Anas-Aljunaid.png"
             alt=""
           />
@@ -170,7 +168,7 @@
 
     <!-- Start Education Section -->
     <section id="Education" class="mt-24">
-      <div class="px-4 sm:px-6 lg:container">
+      <div class="px-8 lg:container">
         <!-- Education Title -->
         <div data-aos="fade-down" data-aos-duration="1000">
           <h2
@@ -219,7 +217,7 @@
     <!-- End Education Section -->
 
     <!-- Start Skills Section -->
-    <section id="Skills" class="mt-24 px-4 sm:px-6 lg:container">
+    <section id="Skills" class="mt-24 px-8 lg:container">
       <!-- Skills Title -->
       <div data-aos="fade-down" data-aos-duration="1000">
         <h2
@@ -357,7 +355,7 @@
     <!-- Start Footer Section -->
     <footer
       id="Contact-me"
-      class="border-t border-t-secondary-bg-light p-8 text-center dark:border-t-secondary-bg-dark sm:px-6 lg:container"
+      class="border-t border-t-secondary-bg-light p-8 px-8 text-center dark:border-t-secondary-bg-dark lg:container"
       data-aos="fade-down"
       data-aos-duration="1200"
     >
@@ -399,14 +397,59 @@
     </footer>
     <!-- End Footer Section -->
 
-    <!-- Import Javascript File -->
-    <script src="./src/script.js"></script>
-
     <!-- AOS Library -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!-- Javascript code -->
     <script>
+      // Animation on scroll library
       AOS.init();
+
+      // Switch Mode
+      const sunIcon = document.querySelector(".sun");
+
+      const moonIcon = document.querySelector(".moon");
+
+      const userTheme = localStorage.getItem("theme");
+      const systemTheme = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+
+      const iconToggle = () => {
+        moonIcon.classList.toggle("display-none");
+        sunIcon.classList.toggle("display-none");
+      };
+
+      const themeCheck = () => {
+        if (userTheme === "dark" || (!userTheme && systemTheme)) {
+          document.documentElement.classList.add("dark");
+          moonIcon.classList.add("display-none");
+          return;
+        }
+        sunIcon.classList.add("display-none");
+      };
+
+      const themeSwitch = () => {
+        if (document.documentElement.classList.contains("dark")) {
+          document.documentElement.classList.remove("dark");
+          localStorage.setItem("theme", "light");
+          iconToggle();
+          return;
+        }
+        document.documentElement.classList.add("dark");
+        localStorage.setItem("theme", "dark");
+        iconToggle();
+      };
+
+      sunIcon.addEventListener("click", () => {
+        themeSwitch();
+      });
+
+      moonIcon.addEventListener("click", () => {
+        themeSwitch();
+      });
+
+      themeCheck();
     </script>
   </body>
 </html>
