@@ -1,17 +1,18 @@
 *{
-    box-sizing: border-box;      
+    box-sizing: border-box;
 }
 
 body{
     width: 100vw;
     height: 100vh;
     margin: 0;
+    padding: 0;
     overflow: hidden;
     background: linear-gradient(#F7F5EB, #EAE0DA);
 }
 
 .title1{
-    position: relative;  
+    position: relative;
 }
 .h1{
     position: absolute;
@@ -59,8 +60,13 @@ body{
     font-style:oblique;
 }
 
-.ALLshape{
-    position: absolute;
+.ALLBtnContainr{
+    position: relative;
+    margin: 2rem 1rem 1rem 2rem;
+    left: 4rem;
+    bottom: 40rem;
+    width: 60%;
+    height: 10%;
 }
 
 
@@ -70,20 +76,19 @@ body{
     color: rgb(255, 255, 255);
     height: 5vh;
     width: 9vw;
-    position: relative;  
     border-radius: 0px;
     border: none;
     outline: none;
     cursor: pointer;
-    
+
 }
 
 .btn-about{
-    position: absolute;
+    position: relative;
     font-weight: bold;
-    font-size: 2rm;
-    bottom: 38rem;
-    left: 4rem;
+    font-size: 1rem;
+    top: 1rem;
+    left: 1rem;
     border: none;
     color: black;
     background-color: #B1AFFF;
@@ -98,11 +103,11 @@ body{
 }
 
 .btn-skills{
-    position: absolute;
+    position: relative;
     font-weight: bold;
-    font-size: 2rm;
-    bottom: 38rem;
-    left: 24rem;
+    font-size: 1rem;
+    top: 1rem;
+    left: 13rem;
     border: none;
     color: black;
     background-color: #B1AFFF;
@@ -117,11 +122,11 @@ body{
 }
 
 .btn-contact{
-    position: absolute;
+    position: relative;
     font-weight: bold;
-    font-size: 2rm;
-    bottom: 38rem;
-    left: 45rem;
+    font-size: 1rem;
+    top: 1rem;
+    left: 25rem;
     border: none;
     color: black;
     background-color: #B1AFFF;
@@ -146,8 +151,8 @@ body{
 /*@media (max-width: 1353px){
     .shape1{
         width: 25vw;
-        left: 55rem;  
-       
+        left: 55rem;
+
     }
     .shape2{
         width: 29vw;
@@ -162,10 +167,10 @@ body{
     }
     .btn-contact{
         left: 35rem;
-    }   
+    }
 
     .h1{
-       font-size: 50px; 
+       font-size: 50px;
        left: 11rem;
     }
     .p4{
@@ -175,7 +180,7 @@ body{
     }
 }
 
-@media (max-width: 1155px){ 
+@media (max-width: 1155px){
     .shape1{
         left: 50rem;
         width: 25vw;
