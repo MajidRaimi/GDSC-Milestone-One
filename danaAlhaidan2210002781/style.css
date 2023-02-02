@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hello{
+position: absolute;
+width: 189px;
+height: 95px;
+left: 131px;
+top: 130px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 95px;
+color: #2c2b2c;
+
+}
+
+.name{
+position: absolute;
+width: 470px;
+height: 140px;
+left: 127px;
+top: 230px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 118px;
+line-height: 100px;
+color: rgb(127, 5, 76);
+text-shadow: 0px 4px 4px #9d6393;
+}
+
+.logo{
+    font-size: 27px;
+    font-family:'Yeon Sung';
+    font-style: normal;
+    float:left;
+    height: 0px;
+    display: flex;
+    font-style: normal;
+    align-items: center;
+    color: rgb(127, 5, 76);
+    text-shadow: 0px 4px 4px #9d6393;
+    padding-top: 16px;
+    padding-left: 10px;
+
+
+}
+
+
+
+.content p{
+    
+position: absolute;
+width: 600px;
+height: 172px;
+left: 128px;
+top: 430px;
+
+font-family: 'Times Roman';
+font-style: italic;
+font-weight: 600;
+font-size: 24px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #2c2b2c;
+
+}
+
+.menu{
+    width: 400px;
+    float:left;
+    height:70px;
+
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+    margin-left:280px;
+    margin-top:17px;
+    font-size:15px;
+    text-align:center;
+    position: relative;
+    
+}
+ul li::after{
+    content:'';
+    height: 3px;
+    width:100%;
+    position: absolute;
+    background: #9d6393;
+    left: 0;
+    bottom:-5px;
+
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    color:rgb(37, 33, 33);
+    font-weight: bold;
+    font-family: 'Times Roman';
+   
+}
+ul li a:hover{
+    color: rgb(130, 11, 74);
+}
+
+.image{
+    position: absolute;
+    width: 250px;
+    height: 240px;
+    left: 800px;
+    top: 200px;
+    border-radius: 270px;
+    
+
+}
+.background{
+    background-image: url(img/background1.png);
+    width:100%;
+    height: 100vh;
+    background-size:cover ;
+
+
+
+}
