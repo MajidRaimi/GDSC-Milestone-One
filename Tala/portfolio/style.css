@@ -1,0 +1,148 @@
+body
+{
+    background-color: #E8E8DF;
+    margin-left: 130px;
+    margin-right: 44px;
+    margin-top: 71px;
+}
+.logo
+{
+    color: #929292;
+    position: absolute;
+    width: 61px;
+    height: 30px;
+    left: 130px;
+    top: 71px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+.about_me
+{
+    font-family: "inter" , sans-serif;
+    color: #313230;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    left: 980px;
+    top: 71px;
+
+}
+.skills
+{
+    font-family: "inter" , sans-serif;
+    color: #313230;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute; 
+    left: 1144px;
+    top: 71px; 
+}
+.projects
+{
+    font-family: "inter" , sans-serif;
+    color: #313230;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    left: 1255px;
+    top: 71px;
+    
+}
+.Title_1
+{
+    font-family: "inter" , sans-serif;
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    left: 130px;
+    top: 329px;
+
+}
+.orange_t
+{
+    font-family: "inter" , sans-serif;
+    color: #FE6241;
+    font-size: 60px;
+    font-weight: 700;
+    left: 130px;
+    top: 329px;
+}
+.Title_2
+{
+    position: absolute;
+    left: 130px;
+    top: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+}
+.p_1
+{
+    font-family: "inter" , sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    left: 130px;
+    top: 377px;
+    left: 130px;
+    top: 450px;
+
+}
+.orange_p
+{
+    font-family: "inter" , sans-serif;
+    color: #FE6241;
+    font-size: 20px;
+    font-weight: 500;
+    left: 130px;
+    top: 450px;
+}
+.main_img
+{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 852px;
+    top: 180px;
+}
+.icon_g
+{
+    width: 50px;
+    height: 52px;
+    position: absolute;
+    left: 130px;
+    top: 609px;
+}
+.icon_m
+{
+    width: 50px;
+    height: 52px;
+    position: absolute;
+    left: 461px;
+    top: 609px;
+}
+.icon_l
+{
+    width: 50px;
+    height: 52px;
+    position: absolute;
+    left: 352px;
+    top: 609px;
+   
+}
+.icon_t
+{
+    width: 50px;
+    height: 52px;
+    position: absolute;
+    left: 243px;
+    top: 609px;
+    
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tailwind portfolio</title>
+  </head>
+  <body>
+    <body class="min-h-screen bg-Mybg"></body>
+    <nav class="relative container mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <!--Logo-->
+        <div class="flex space-x-2" font-Inter>
+          <a href="#" class="text-Mygray text-xl font-bold font-Inter">Logo</a>
+        </div>
+        <!--Menu-->
+        <div class="hidden space-x-6 font-Inter md:flex">
+          <a href="#" class="text-Mydarkgray text-xl hover:text-Mypink"
+            >About me</a
+          >
+          <a href="#" class="text-Mydarkgray text-xl hover:text-Mypink"
+            >Skills</a
+          >
+          <a href="#" class="text-Mydarkgray text-xl hover:text-Mypink"
+            >Projects</a
+          >
+        </div>
+        <!--Button-->
+        <a
+          href="#"
+          class="hidden p-3 px-6 pt-2 font-Inter text-white bg-Myorange rounded-full hover:text-Mypink hover:duration-300 md:block"
+          >Hire me!</a
+        >
+      </div>
+    </nav>
+    <!--upper section-->
+    <section id="upper">
+      <!--Flex Container-->
+      <div
+        class="container flex flex-col-reverse items-center px-6 mx-auto mt-20 space-y-0 md:space-y-0 md:flex-row"
+      >
+        <!--Left-->
+        <div
+          class="flex flex-col mb-32 space-y-10 md:w-1/2 font-Inter text-Mydarkgray"
+        >
+          <h1 class="max-w-md text-2xl text-left font-light">
+            Welcome to my site
+          </h1>
+          <h1 class="max-w-md text-7xl text-left font-bold">
+            Hi! I'm <a class="text-Myorange">Tala</a> Almulla
+          </h1>
+          <p class="max-w-sm text-lg text-left font-regular">
+            A 2nd-year
+            <a class="text-Myorange">General Computer Science</a> student at
+            IAU. Ambitious and hard-working, interested in
+            <a class="text-Myorange">technology, programming,</a> and learning
+            new things in different fields.
+          </p>
+          <div class="flex justify-center md:justify-start w-30 h-28 space-x-2">
+            <a href="mailto:talaalmulla@gmail.com"
+              ><img src="img_t/email.png" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/tala-almulla-b1314a245/"
+              ><img
+                src="img_t/216393_social_linkedin_circular_icon.png"
+                alt=""
+              />
+            </a>
+            <a href="https://twitter.com/bctala"
+              ><img src="img_t/211919_social_twitter_icon.png" alt="" />
+            </a>
+            <a href="https://github.com/bctala"
+              ><img src="img_t/github.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <!--Right-->
+        <div class="mt-8 md:w-1/2">
+          <img
+            src="img_t/6b7d43a91d1a8dedd0ba3d7fdd6f3636-PhotoRoom.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
